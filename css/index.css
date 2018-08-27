@@ -1,0 +1,313 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    perspective: 6px;
+    perspective-origin: 40% 30px;
+    display: block;
+}
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
+}
+.subtitulo-principal{
+  font-size: 1.2em;
+}
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em 8em;
+}
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    transform:  rotate(-5deg) skew(-10deg);
+    display: inline-block;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+.saudacao:hover em {
+    animation-play-state: paused;
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+    padding: 1em 1em;
+}
+.trabalhos ul {
+    margin: 0 2em;
+    display: flex;
+}
+.trabalhos li {
+    border: .5em solid #000;
+    flex: 1;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+.trabalhos li:last-child {
+    order: 3;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    background-image: linear-gradient(45deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(255, 255, 255, 0.1) 14px,
+                        rgba(255, 255, 255, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.blog h2{
+  color: #FFF;
+  padding: 1em 1em;
+}
+.blog small{
+  position: relative;
+  top: -2em;
+  padding: 0 2.1em;
+}
+.blog li a {
+    color: #FCF;
+    padding: .5em 3em;
+    display: block;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+footer h2{
+  font-size: 2.85em;
+}
+header{
+  position: relative;
+}
+.palavra-home{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  color: rgba(255, 127, 127, 0.5);
+  font-size: 2.7em;
+  position: absolute;
+  -webkit-animation: aparece 2s;
+  animation: aparece 2s;
+}
+@keyframes aparece {
+    /* podemos usar a palavra-chave "from" também no lugar de 0% */
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+.eficiencia {
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px) scale(.25);
+    opacity: .6;
+}
+.boas-praticas{
+  top: 78%;
+  left: 80%;
+  transform: translate(-50%, -50%) rotate(5deg) translateZ(1px) scale(.25);
+  opacity: .9;
+}
+.codigo-limpo{
+  top: 48%;
+  left: 75%;
+  transform: translate(-70%, -50%) rotate(10deg) translateZ(2px) scale(.25);
+  opacity: .8;
+}
+.css3{
+  top: 18%;
+  left: 70%;
+  transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px) scale(.25);
+  opacity: .8;
+}
+.html5{
+  top: 68%;
+  left: 65%;
+  transform: translate(-50%, -50%) rotate(-7deg) translateZ(1px) scale(.25);
+  opacity: .9;
+}
+.javascript{
+  top: 28%;
+  left: 60%;
+  transform: translate(-50%, -50%) rotate(8deg) translateZ(3px) scale(.25);
+  opacity: .7;
+}
+.acessibilidade{
+  top: 18%;
+  left: 35%;
+  transform: translate(-50%, -50%) rotate(-7deg) translateZ(4px) scale(.25);
+  opacity: .6;
+}
+.responsivo{
+  top: 53%;
+  left: 25%;
+  transform: translate(-50%, -50%) rotate(9deg) translateZ(1px) scale(.25);
+  opacity: .9;
+}
+.otimizacoes{
+  top: 48%;
+  left: 25%;
+  transform: translate(-50%, -50%) rotate(-11deg) translateZ(3px) scale(.25);
+  opacity: .7;
+}
+.agilidade{
+  top: 13%;
+  left: 20%;
+  transform: translate(-50%, -50%) rotate(9deg) translateZ(2px) scale(.25);
+  opacity: .8;
+}
+.design{
+  top: 48%;
+  left: 35%;
+  transform: translate(-50%, -50%) rotate(-11deg) translateZ(3px) scale(.25);
+  opacity: .7;
+}
+.blog {
+    position: relative;
+}
+.blog .inicio-post{
+    position: absolute;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+}
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+    color: #F26;
+}
+.blog li {
+    width: 30%;
+}
+.banner-twitter {
+    width: 22em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .2em solid black;
+
+    font-size: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(calc(.9 * (3.5em - 100%) + 100%), calc(-1.207 * 3.5em)) rotate(45deg);
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+.inicio-post {
+  display: none;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+
+.botao-index {
+    text-decoration: none;
+    transition: .5s;
+}
