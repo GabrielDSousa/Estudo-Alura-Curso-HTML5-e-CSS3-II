@@ -14,7 +14,7 @@ These are pages made with HTML5 and CSS3. The study is to advance in the knowleg
 
 In HTML5 we learn tables and forms.
 
-In CSS3, we learn flebox, use pseudo elements, psudo tags, animations and customize the form.
+In CSS3, we learn flebox, use pseudo elements, pseudo tags, animations and customize the form.
 
 ### The website
 
