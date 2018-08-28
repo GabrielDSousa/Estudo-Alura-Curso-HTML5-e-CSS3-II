@@ -6,8 +6,6 @@ WebSite made for the course HTML5 and CSS3 II: Enhancing your pages
 
 To have the code, simply clone the project and open the files with any text editor of your choice.
 
-The project can also be seen at the link:
-
 ### Used Technologies
 
 These are pages made with HTML5 and CSS3. The study is to advance in the knowlegment of the technology.
