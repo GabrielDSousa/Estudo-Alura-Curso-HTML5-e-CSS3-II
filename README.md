@@ -19,10 +19,10 @@ In CSS3, we learn flebox, use pseudo elements, pseudo tags, animations and custo
 The site was made to be the personal site of a fictional person, named João da Silva.
 In this course we made the index page, the contact (contato.html) page and enchace the visual of the other pages.
 
-## built with
+## Built with
 
 * [Atom] (https://atom.io/) - The used text editor
 
 ## Authors
 
-* ** Gabriel Ramos ** - * Full study * - [GabrielDSousa] (https://github.com/GabrielDSousa)
+* **Gabriel Ramos** - *Full study* - [GabrielDSousa] (https://github.com/GabrielDSousa)
